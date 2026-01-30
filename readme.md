@@ -38,16 +38,17 @@ npm install
 Crea un archivo `.env` (puedes copiar `.env.example`) y rellena tus credenciales:
 
 ```env
-PORT=3000
-
 DB_HOST=
 DB_USER=
 DB_PASSWORD=
 DB_NAME=
 
-JWT_SECRET=super_secret_change_me
-JWT_EXPIRES_IN=1h
+JWT_SECRET=
+JWT_EXPIRES_IN=8h
+
+PORT = 8000
 ```
+Tambien se usa .env.test para las pruebas, es necesario tener un usuario con privilegios adecuados o sino la bd ya creada porque aveces falla si el usuario no tiene los permisos correctos
 
 > **Notas**
 > - `DB_HOST` suele ser `127.0.0.1` o el host de tu contenedor/servidor MySQL.
