@@ -427,3 +427,6 @@ Y se aplica en rutas con el middleware:
 - `src/db/` conexión + init/seed
 - `src/validators/` esquemas Joi
 - `src/middlewares/` auth JWT + validate Joi
+
+## Compilacion de la API disponible
+ https://wapi.cerobits.com
